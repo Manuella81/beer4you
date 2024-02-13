@@ -32,11 +32,16 @@ Le dossier b4y-front gère tout le front:
 - **App.js**: c'est le point d'entrée principal de l'application. On y retrouve la structure de base de l'application, y compris les routes.
 
 **ORGANISATION DU SITE :**
+
+**Espace utilisateur :**
+
 - Home: la page d'accueil.
 - produits: liste de tout les produits disponibles.
 - Il faut s'enregister ou de se connecter à son compte utilisateur afin de pouvoir passer commande.
 - Ajout d'un produits: si la quantité en stock n'est pas suffisante un message s'affiche: "Veuillez choisir une quantitée inférieur ou égale à (la quantité en stock)".
 - Une fois qu'on a terminé nos achats, on peut passer au paiement en validant le panier. Il faudra donc saisir le numéro de carte bancaire.
+
+**Espace administrateur du site :**  
 - Espace admin: espace de celui qui gère le site. Il peut ajouter, modifier ou supprimer une bière.
 
 **QUELQUES CAPTURES D'ECRAN**
