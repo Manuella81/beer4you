@@ -27,7 +27,7 @@ Le dossier b4y-front gère tout le front:
 - **dossier slices**: regroupe les "slices" ou les tranches de l'état global de l'application géré par Redux et le **store.jsx** qui centralise et gére l'état global de l'application.
 **userSlice.jsx** permettent de gérer les informations sur l'utilisateur ou administrateur connecté, y compris les actions pour se connecter, se déconnecter, mettre à jour les informations utilisateur ou administrateur, etc.
 **beerSlice.jsx** permet de gérer les produits.
-**basketSlice** gère l'état global spécifique au panier. Ce fichier est ensuite importé dans le store Redux de l'application pour être inclus dans l'état global et utilisé par les composants pour gérer l'état du panier. Le fichier basketSlice.jsx être utilisé pour le panier et dans le Header (pour afficher le nombre de bières à côté de l'icône panier) 
+**basketSlice** gère l'état global spécifique au panier. Ce fichier est ensuite importé dans le store Redux de l'application pour être inclus dans l'état global et utilisé par les composants pour gérer l'état du panier. Le fichier basketSlice.jsx va être utilisé pour le panier et dans le Header (pour afficher le nombre de bières à côté de l'icône panier) 
 - **config.js**: stocke l'URL de base de l'API et l'URL API pour afficher les images
 - **App.js**: c'est le point d'entrée principal de l'application. On y retrouve la structure de base de l'application, y compris les routes.
 
